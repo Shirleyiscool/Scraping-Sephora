@@ -1,4 +1,4 @@
-# Scraping-Sephora
+# Scraping Sephora
   - 02/2019 
   - UCI Winter Quarter: FE 290 - Data and Programming for Analytics
   - Xueying Li
