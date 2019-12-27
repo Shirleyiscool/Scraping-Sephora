@@ -3,3 +3,5 @@
 .ipynb_checkpoints/Sephora - Get Product Info-checkpoint.ipynb
 .DS_Store
 .ipynb_checkpoints/Scape_brand&product_links-checkpoint.ipynb
+*.ipynb
+.ipynb_checkpoints/Scape_Product_Info-checkpoint.ipynb
