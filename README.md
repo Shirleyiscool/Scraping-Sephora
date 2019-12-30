@@ -15,6 +15,9 @@ Here are some steps to scape the product information.
 
 ## Step 1: Get all the brand links and product links from Sephora and save them into text file.
 
+From Sephora's Brand list website, we can scrape all the brand links.
+![brand list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/brand_list_screenshot.png)
+
 ### Step 2: Get product information from each product links and save them into Excel file.
 
 ### Notes:
