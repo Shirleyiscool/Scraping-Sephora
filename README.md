@@ -15,10 +15,15 @@ Here are some steps to scape the product information.
 
 ## Step 1: Get all the brand links and product links from Sephora and save them into text file.
 
-From Sephora's Brand list website, we can scrape all the brand links.
+### From [Sephora's Brand list website](https://www.sephora.com/brands-list), we can scrape all the brand links.
 ![brand list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/brand_list_screenshot.png)
 
-### Step 2: Get product information from each product links and save them into Excel file.
+### After clicking each brand link, we can see all the product page and scrape all the product links.
+![product list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/product_list_screenshot.png)
+
+**Note**: To show all the product links, the brand link must add `/all?pageSize=300` at the end for scraping.
+
+### Step 2: Get product information from each product links and save them as csv file.
 
 ### Notes:
    1) Not all the information can be obtained as some products have different page design. Therefore, beautiful soup has limits to scrape the data. In this current version, I just simply use na to replace those information that is null or goes error.
