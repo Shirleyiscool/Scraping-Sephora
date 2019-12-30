@@ -1,4 +1,4 @@
-# Scraping Sephora Product Information
+# Sephora Product Analysis
   - Start date: 02/2019
   - For education: FE 290 - Data and Programming for Analytics @ UCI
   - Author: Shirley Li
@@ -10,7 +10,10 @@ After my study in MSDS program at USF, I decided to optimize the codes and impro
 at the same time. So I try to optimize the codes during the winter break in 12/2019. However, there are sill
 some things to improve but that would take some time. So this project is going to be updated from time to time.
 
-### Step 1: Get all the brand links and product links from Sephora and save them into text file.
+# Scraping data from Sephora
+Here are some steps to scape the product information.
+
+## Step 1: Get all the brand links and product links from Sephora and save them into text file.
 
 ### Step 2: Get product information from each product links and save them into Excel file.
 
