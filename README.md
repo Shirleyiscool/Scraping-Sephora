@@ -1,3 +1,11 @@
+# Sephora Product Analysis
+  - Start date: 02/2019
+  - For education: FE 290 - Data and Programming for Analytics @ UCI
+  - Author: Shirley Li
+
+
+Table of Contents
+---
    * [About the project](#about-the-project)
    * [Scraping data from Sephora](#scraping-data-from-sephora)
       * [Step 1: Get all the brand links and product links](#step-1-get-all-the-brand-links-and-product-links)
@@ -7,10 +15,7 @@
       * [Future Work to Do](#future-work-to-do)
    * [Visualizations and Analysis for Sephora products](#visualizations-and-analysis-for-sephora-products)
 
-# Sephora Product Analysis
-  - Start date: 02/2019
-  - For education: FE 290 - Data and Programming for Analytics @ UCI
-  - Author: Shirley Li
+
 
 ## About the project
 This project is for the group work of class FE290 during my accounting master study at UCI.
