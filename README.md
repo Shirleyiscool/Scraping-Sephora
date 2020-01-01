@@ -15,7 +15,9 @@ Here are some steps to scape the product information.
 
 ## Step 1: Get all the brand links and product links
 
-### a) From [Sephora's Brand list website](https://www.sephora.com/brands-list), we can scrape all the brand links.
+Notebook link [here](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/1%20Brand%26Product_links.ipynb)
+
+### a) From Sephora's Brand list website, we can scrape all the brand links.
 ![brand list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/brand_list_screenshot.png)
 
 <br>
@@ -41,11 +43,25 @@ Since the reviews are coded with JavaScript, we cannot simply scrape them with B
 But now, we mainly use `get_data` function to scrape product information from each product link.
 
 ```
+def get_data(product_link):
+    """
+    Given a product link, return a dictionary of product info
+    including product id, product name, brand, category, item
+    number, price, size, love counts, review counts, rating and link
+    """
+
+    ...
 
 ```
 
+However, when we scrape all the product information, it means we have to request Sephora for over 3000 times, and we will take risk being blocked.
 
-### Notes:
-   1) Not all the information can be obtained as some products have different page design. Therefore, beautiful soup has limits to scrape the data. In this current version, I just simply use na to replace those information that is null or goes error.
-   2) Reviews are not obtained for the current version.
-   3) Data analytics was simple when I did this project. Coding for this part will be uploaded later.
+To prevent being blocked by Sephora, there are two ways that we can do.
+
+1) Use different VPNs and try to scrape about 1500 links for one time.
+
+2) Use different proxies to request.
+
+For [the first way](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/2%20Product_Info_vpn.ipynb), it would be simple for coding. But it would be inconvenient because you may need to download a vpn app and try to connect it when running the notebook.
+
+For [the second way](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/2%20Product_Info_proxies.ipynb), it is hard to find good proxies online. So far, I cannot find an easy way to automatically scrape proxies and find workable proxies to scrape data. I could get some workable proxies online by hand, but it is also required Selenium to scrape them as they are written in JavaScript. This is to do in the future as well.
