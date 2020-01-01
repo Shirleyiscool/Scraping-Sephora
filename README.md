@@ -81,7 +81,9 @@ After scraping the product information, we save them as a Dataframe with pandas,
 
 ### Future Work to Do
 
-1. Try to use Selenium to a) Scrape product reviews as well as the user characteristics. b) Scrape workable proxies for scraping Sephora without blocking.
+1. Try to use Selenium to <br>
+  a) Scrape product reviews as well as the user characteristics. <br>
+  b) Scrape workable proxies for scraping Sephora without blocking.
 
 2. Organize all the notebooks and summarize all the function as a package or as an API
 
