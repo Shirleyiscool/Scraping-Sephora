@@ -20,13 +20,12 @@ Notebook link [here](https://github.com/Shirleyiscool/Scraping-Sephora/blob/mast
 ### a) From Sephora's Brand list website, we can scrape all the brand links.
 ![brand list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/brand_list_screenshot.png)
 
-<br>
+
 12/29/2019: There are **345** brands in total on Sephora website.
 
 ### b) After clicking each brand link, we can see all the product page and scrape all the product links.
 ![product list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/product_list_screenshot.png)
 
-<br>
 12/29/2019: There are **3085** products in total on Sephora website.
 
 **Note**: To show all the product links, the brand link must add `/all?pageSize=300` at the end for scraping.
