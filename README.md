@@ -18,16 +18,32 @@ Here are some steps to scape the product information.
 ### a) From [Sephora's Brand list website](https://www.sephora.com/brands-list), we can scrape all the brand links.
 ![brand list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/brand_list_screenshot.png)
 
-\n 12/29/2019: There are **345** brands in total on Sephora website.
+<br>
+12/29/2019: There are **345** brands in total on Sephora website.
 
 ### b) After clicking each brand link, we can see all the product page and scrape all the product links.
 ![product list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/product_list_screenshot.png)
 
-\n 12/29/2019: There are **3085** products in total on Sephora website.
+<br>
+12/29/2019: There are **3085** products in total on Sephora website.
 
 **Note**: To show all the product links, the brand link must add `/all?pageSize=300` at the end for scraping.
 
 ## Step 2: Get product information
+
+From the product page, we can decide what information we are going to scrape.
+![product list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/product_info_screenshot.png)
+
+Here, we are going to scrape information including product name, product ID, item id, category, brand, price, size, love count, review count, rating.
+
+Since the reviews are coded with JavaScript, we cannot simply scrape them with BeautifulSoup. Instead, Selenium might work, which would be the future work.
+
+But now, we mainly use `get_data` function to scrape product information from each product link.
+
+```
+
+```
+
 
 ### Notes:
    1) Not all the information can be obtained as some products have different page design. Therefore, beautiful soup has limits to scrape the data. In this current version, I just simply use na to replace those information that is null or goes error.
