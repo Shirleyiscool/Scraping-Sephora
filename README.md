@@ -85,7 +85,11 @@ After scraping the product information, we save them as a Dataframe with pandas,
   a) Scrape product reviews as well as the user characteristics. <br>
   b) Scrape workable proxies for scraping Sephora without blocking.
 
-2. Organize all the notebooks and summarize all the function as a package or as an API
+2. There might be different items for the same product. (For example, Lips could have different color for the same product.) Therefore, I just scrape the default item for each product. In the future, there might be some ways to scrape all the items for the same product.
+
+3. Regarding the description of the product, the information is not consistent throughout all products. Some might have introduction, while some just leave that blank. If we can also scrape the ingredients for some products, that would be also helpful for product analysis.
+
+3. Organize all the notebooks and summarize all the function as a package or as an API
 
 ## Visualizations and Analysis for Sephora products
 
