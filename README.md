@@ -93,4 +93,6 @@ After scraping the product information, we save them as a Dataframe with pandas,
 
 ## Visualizations and Analysis for Sephora products
 
+After [cleaning the data](https://github.com/Shirleyiscool/Scraping-Sephora/tree/master/clean_data), we use Tableau to do visualizations.
+
 (to do in a few days)
