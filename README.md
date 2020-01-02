@@ -29,7 +29,7 @@ Here are some steps to scape the product information.
 
 ### Step 1: Get all the brand links and product links
 
-Notebook link [here](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/1%20Brand%26Product_links.ipynb)
+Notebook link [here](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/1-Brand%26Product_links.ipynb)
 
 #### a) From Sephora's Brand list website, we can scrape all the brand links.
 ![brand list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/brand_list_screenshot.png)
@@ -73,11 +73,11 @@ To prevent being blocked by Sephora, there are two ways that we can do.
 
 2) Use different proxies to request.
 
-For [the first way](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/2%20Product_Info_vpn.ipynb), it would be simple for coding. But it would be inconvenient because you may need to download a vpn app and try to connect it when running the notebook.
+For [the first way](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/2-Product_Info_vpn.ipynb), it would be simple for coding. But it would be inconvenient because you may need to download a vpn app and try to connect it when running the notebook.
 
-For [the second way](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/2%20Product_Info_proxies.ipynb), it is hard to find good proxies online. So far, I cannot find an easy way to automatically scrape proxies and find workable proxies to scrape data. I could get some workable proxies online by hand, but it is also required Selenium to scrape them as they are written in JavaScript. This is to do in the future as well.
+For [the second way](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/2-Product_Info_proxies.ipynb), it is hard to find good proxies online. So far, I cannot find an easy way to automatically scrape proxies and find workable proxies to scrape data. I could get some workable proxies online by hand, but it is also required Selenium to scrape them as they are written in JavaScript. This is to do in the future as well.
 
-After scraping the product information, we save them as a Dataframe with pandas, and export [a csv file](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/Sephora_product_info.csv).
+After scraping the product information, we save them as a Dataframe with pandas, and export [a csv file](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/Sephora_product_info.csv).
 
 ### Future Work to Do
 
