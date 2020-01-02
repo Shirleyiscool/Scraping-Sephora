@@ -73,9 +73,9 @@ To prevent being blocked by Sephora, there are two ways that we can do.
 
 2) Use different proxies to request.
 
-For [the first way](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/2-Product_Info_vpn.ipynb), it would be simple for coding. But it would be inconvenient because you may need to download a vpn app and try to connect it when running the notebook.
+For the first way [(VPN)](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/2-Product_Info_vpn.ipynb), it would be simple for coding. But it would be inconvenient because you may need to download a vpn app and try to connect it when running the notebook.
 
-For [the second way](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/2-Product_Info_proxies.ipynb), it is hard to find good proxies online. So far, I cannot find an easy way to automatically scrape proxies and find workable proxies to scrape data. I could get some workable proxies online by hand, but it is also required Selenium to scrape them as they are written in JavaScript. This is to do in the future as well.
+For the second way [(proxies)](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/2-Product_Info_proxies.ipynb), it is hard to find good proxies online. So far, I cannot find an easy way to automatically scrape proxies and find workable proxies to scrape data. I could get some workable proxies online by hand, but it is also required Selenium to scrape them as they are written in JavaScript. This is to do in the future as well.
 
 After scraping the product information, we save them as a Dataframe with pandas, and export [a csv file](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/Sephora_product_info.csv).
 
