@@ -98,7 +98,7 @@ After [cleaning the data](https://github.com/Shirleyiscool/Scraping-Sephora/tree
 The focus is on price as I am planning to do ML to predict price based on other information we got.
 
 What could lead high price?
-![What could lead high price?](master/EDA/price.png)
+![What could lead high price?](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/EDA/price.png)
 
 Ratings vs Love Counts:
 ![Ratings vs Love Counts](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/EDA/rating_vs_lovecount.png)
