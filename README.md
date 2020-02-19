@@ -95,4 +95,10 @@ After scraping the product information, we save them as a Dataframe with pandas,
 
 After [cleaning the data](https://github.com/Shirleyiscool/Scraping-Sephora/tree/master/clean_data), we use Tableau to do visualizations.
 
-(to do in a few days)
+The focus is on price as I am planning to do ML to predict price based on other information we got.
+
+What could lead high price?
+![What could lead high price?](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/EDA/price.png)
+
+Ratings vs Love Counts:
+![Ratings vs Love Counts](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/EDA/rating_vs_lovecount.png)
