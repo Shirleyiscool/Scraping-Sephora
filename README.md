@@ -32,13 +32,13 @@ Here are some steps to scape the product information.
 Notebook link [here](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/scrape_notebook/1-Brand%26Product_links.ipynb)
 
 #### a) From Sephora's Brand list website, we can scrape all the brand links.
-![brand list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/brand_list_screenshot.png)
+![brand list screenshot](image/brand_list_screenshot.png)
 
 
 12/29/2019: There are **345** brands in total on Sephora website.
 
 #### b) After clicking each brand link, we can see all the product page and scrape all the product links.
-![product list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/product_list_screenshot.png)
+![product list screenshot](image/product_list_screenshot.png)
 
 12/29/2019: There are **3085** products in total on Sephora website.
 
@@ -47,7 +47,7 @@ Notebook link [here](https://github.com/Shirleyiscool/Scraping-Sephora/blob/mast
 ### Step 2: Get product information
 
 From the product page, we can decide what information we are going to scrape.
-![product list screenshot](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/image/product_info_screenshot.png)
+![product list screenshot](image/product_info_screenshot.png)
 
 Here, we are going to scrape information including product name, product ID, item id, category, brand, price, size, love count, review count, rating.
 
@@ -98,7 +98,7 @@ After [cleaning the data](https://github.com/Shirleyiscool/Scraping-Sephora/tree
 The focus is on price as I am planning to do ML to predict price based on other information we got.
 
 What could lead high price?
-![What could lead high price?](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/EDA/price.png)
+![What could lead high price?](EDA/price.png)
 
 Ratings vs Love Counts:
-![Ratings vs Love Counts](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/EDA/rating_vs_lovecount.png)
+![Ratings vs Love Counts](EDA/rating_vs_lovecount.png)
