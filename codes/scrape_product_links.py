@@ -31,7 +31,7 @@ def scape_product(link, proxy=None):
 
 # Read brand links file
 product_link_dic = {'brand': [], 'product_links': []}
-num_lines = sum(1 for line in open("brand_link.txt", "r"))
+num_lines = sum(1 for line in open("data/brand_link.txt", "r"))
 
 # Scape all the product links from all the brands links.
 # This will take some time!
@@ -41,7 +41,7 @@ ct = 1
 px = ['165.22.211.212:3128', '140.227.237.154:1000', '140.227.238.18:1000']
 px_idx = 0
 
-for brand_link in open("brand_link.txt", "r"):
+for brand_link in open("data/brand_link.txt", "r"):
     brand_name = brand_link.split('/')[4]
     product_link_list = scape_product(brand_link[:-1], proxy=px[px_idx])
 
@@ -60,7 +60,7 @@ for brand_link in open("brand_link.txt", "r"):
 
 # Write the result into csv file
 product_link_df = pd.DataFrame(product_link_dic)
-product_link_df.to_csv('product_links.csv', index=False)
+product_link_df.to_csv('data/product_links.csv', index=False)
 
 # Indicate scraping completion
 print(f'Got All product Links! There are {len(product_link_df)} products in '

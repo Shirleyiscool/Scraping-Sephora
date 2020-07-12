@@ -16,7 +16,7 @@ for brand in main_box.find_all('li'):
                           brand.a.attrs['href']+"/all?pageSize=300")
 
 # Write brand links into a file:
-with open('brand_link.txt', 'w') as f:
+with open('data/brand_link.txt', 'w') as f:
     for item in brand_link_lst:
         f.write(f"{item}\n")
 
