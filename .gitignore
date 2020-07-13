@@ -3,6 +3,6 @@
 .DS_Store
 EDA/Tableau dashboards.twb
 .idea/*
-codes/data/*
-clean_data/cleaned_pd_data.csv
-clean_data/cleaned_review_data.csv
+scraper/data/*
+data/cleaned_pd_data.csv
+data/cleaned_review_data.csv
