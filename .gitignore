@@ -4,4 +4,5 @@
 EDA/Tableau dashboards.twb
 .idea/*
 codes/data/*
-clean_data/cleaned_data.csv
+clean_data/cleaned_pd_data.csv
+clean_data/cleaned_review_data.csv
