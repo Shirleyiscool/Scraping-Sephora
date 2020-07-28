@@ -6,3 +6,4 @@ EDA/Tableau dashboards.twb
 scraper/data/*
 data/cleaned_pd_data.csv
 data/cleaned_review_data.csv
+data_analysis_ML/Tableau dashboards.twb
