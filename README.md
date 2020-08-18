@@ -19,8 +19,8 @@ Table of Contents
       * [2. For the category with the largest market, how to price the product?](#2-For-the-category-with-the-largest-market-how-to-price-the-product)
       * [3. Assume we are going to sell a product on Sephora, how to predict its popularity?](#3-Assume-we-are-going-to-sell-a-product-on-Sephora-how-to-predict-its-popularity)
    * [Recommendation System](#recommendation-system)
-      * [Content-based Recommendation](#content-based-recommendation)
-      * [Collaborative Filtering Recommendation](#collaborative-filtering-recommendation)
+      * [Content-based Recommendation](#content-based-recommendation-code)
+      * [Collaborative Filtering Recommendation](#collaborative-filtering-recommendation-code)
 
 
 ## About the project
