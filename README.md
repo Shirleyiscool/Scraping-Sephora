@@ -18,7 +18,9 @@ Table of Contents
       * [1. What categories have the largest market?](#1-what-categories-have-the-largest-market)
       * [2. For the category with the largest market, how to price the product?](#2-For-the-category-with-the-largest-market-how-to-price-the-product)
       * [3. Assume we are going to sell a product on Sephora, how to predict its popularity?](#3-Assume-we-are-going-to-sell-a-product-on-Sephora-how-to-predict-its-popularity)
-
+   * [Recommendation System](#recommendation-system)
+      * [Content-based Recommendation](#content-based-recommendation)
+      * [Collaborative Filtering Recommendation](#collaborative-filtering-recommendation)
 
 
 ## About the project
@@ -153,3 +155,10 @@ From the graph here, we can notice that if a product has been sold for a long ti
 I also tried ML methods to predict popularity, but the best model - Random Forest only achieve 0.21 R-squared, which is caused by limited explained variables. And the model shows top 3 important features are `Product_Updated_days`, `Product_History_days` and `Price`.
 
 More work may be done in the future to answer this problems better.  
+
+
+## Recommendation System
+
+### Content-based Recommendation [[Code]](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/nb_recommendation/Recom_CB.ipynb)
+
+### Collaborative Filtering Recommendation [[Code]](https://github.com/Shirleyiscool/Scraping-Sephora/blob/master/nb_recommendation/Recom_CF_FastAI.ipynb)
