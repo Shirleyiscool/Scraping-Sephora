@@ -15,9 +15,9 @@ Table of Contents
       * [Step 3: Get reviews data](#step-3-get-reviews-data)
    * [Visualizations and Analysis for Sephora products](#visualizations-and-analysis-for-sephora-products)
       * [Problems to answer](#problems-to-answer)
-        * [1. What categories have the largest market?](#1-what-categories-have-the-largest-market)
-        * [2. For the category with the largest market, how to price the product?](#2-For-the-category-with-the-largest-market-how-to-price-the-product)
-        * [3. Assume we are going to sell a product on Sephora, how to predict its popularity?](#3-Assume-we-are-going-to-sell-a-product-on-Sephora-how-to-predict-its-popularity)
+      * [1. What categories have the largest market?](#1-what-categories-have-the-largest-market)
+      * [2. For the category with the largest market, how to price the product?](#2-For-the-category-with-the-largest-market-how-to-price-the-product)
+      * [3. Assume we are going to sell a product on Sephora, how to predict its popularity?](#3-Assume-we-are-going-to-sell-a-product-on-Sephora-how-to-predict-its-popularity)
 
 
 
@@ -107,7 +107,7 @@ Assuming we are a Makeup/Skincare companies, we hope to invest on a new product 
 - 3. Assume we are going to sell a product on Sephora, how to predict its popularity?
 
 
-#### 1. What categories have the largest market?
+### 1. What categories have the largest market?
 ![cat_vis](vis/cat.png)
 
 In general, Makeup and Skincare are the two largest categories for Sephora, from either the love counts and review counts. Makeup products are welcomed by all age group and its average love counts and review counts are much higher than other categories. It means makeup products are very popular on Sephora.
@@ -115,7 +115,7 @@ In general, Makeup and Skincare are the two largest categories for Sephora, from
 Besides, the mean price for makeup products is low, meaning it may be easier for a
 startup company to begin with limited budget for developing product.
 
-#### 2. For the category with the largest market, how to price the product?
+### 2. For the category with the largest market, how to price the product?
 
 **Price Distribution**
 ![price_vis_1](vis/price_1.png)
@@ -140,7 +140,7 @@ For example, the final value: "11.99" means For the population who buy Makeup Pr
 
 Therefore, from the table above, we can find that the population aged over 25 tends to buy more expensive products, while younger age is not sensitive with the price. But note that the largest population group is 18-24 and 25-34. If a startup company wish to develop a product, the company need to know the target customers. The product should be priced lower if the target customers are aged less than 25 and priced higher for customers aged 25+.
 
-#### 3. Assume we are going to sell a product on Sephora, how to predict its popularity?
+### 3. Assume we are going to sell a product on Sephora, how to predict its popularity?
 
 We here use `love_count + reviews_count = popularity` as the metric to evaluate the popularity of a product.
 
